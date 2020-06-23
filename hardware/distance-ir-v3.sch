@@ -305,7 +305,6 @@ Wire Wire Line
 	4600 6950 4750 6950
 NoConn ~ 4750 5450
 NoConn ~ 4750 5350
-NoConn ~ 4750 5150
 NoConn ~ 4750 4350
 Connection ~ 4600 6850
 Connection ~ 4600 6950
@@ -369,9 +368,9 @@ $EndComp
 Wire Wire Line
 	1800 1500 1800 850 
 NoConn ~ 4750 2850
-Text GLabel 6400 3650 0    60   Input ~ 0
-SDA
 Text GLabel 6400 3500 0    60   Input ~ 0
+SDA
+Text GLabel 6400 3650 0    60   Input ~ 0
 SCL
 $Comp
 L tinkerforge:R_PACK4 RP102
